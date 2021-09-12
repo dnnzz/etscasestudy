@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #f7f7f7;
+}
+.navbar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+/*
+-----util classes-----
+*/
+.bg-dark-yellow{
+ background-color:#faa300;
+}
+
+.grey-text{
+color:#212529;
+}
+
+.dark-yellow-text{
+ color:#faa300;
+}
+
+.a-hero-section:hover{
+color:white;
+text-decoration:none;
+}
+.bg-dark {
+    background-color: #222!important;
+}
+.mx-background-top-linear {
+    background: -webkit-linear-gradient(45deg, #222 48%, #1b1e21 48%);
+    background: -webkit-linear-gradient(left, #222 48%, #1b1e21 48%);
+    background: linear-gradient(45deg, #222 48%, #1b1e21 48%);
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: .3s ease-out;
+    color: #fff;
+}
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*
+-----util classes end-----
+*/
+
+
+
+/*
+-----userlist classes-----
+*/
+.table-header{
+color:#faa300;
+}
+.container.table-section{
+  text-align: center;
+  overflow: hidden;
+  width: 800px;
+  margin: 0 auto;
+  margin-top:10vh;
+}
+
+.container.table-section table {
+  width: 100%;
+}
+
+.container.table-section td, .container.table-section th {
+  padding: 10px;
+}
+
+.container.table-section td:first-child, .container.table-section th:first-child {
+  padding-left: 20px;
+}
+
+.container.table-section td:last-child, .container.table-section th:last-child {
+  padding-right: 20px;
+}
+
+.container.table-section th {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+
+tr{
+color:white;
+}
+/*
+-----userlist classes end-----
+*/
+
+/*-----new user form classes-----*/
+.form-box {
+    width: 30%;
+    background: #00000030;
+    padding: 40px 0;
+    margin: 11rem auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 14px 0px #0000003b;
+    color: #fff;
+}
+.form-box .box-title {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.form-box input {
+    display: block;
+    width: 75%;
+    padding: 8px;
+    margin: 10px auto;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 0 20px #0000001f;
+}
+.form-box input:focus {
+    outline: none;
+    border: none;
+
+}
+.form-box .submit-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 75%;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 20px #96888833;
+    cursor: pointer;
+    outline :none;
+}
+.form-box .submit-btn:hover {
+ color: #fff;
+ background: #000000c9;
+  outline :none;
+}
+
+@media screen and (max-width:768px) {
+    .form-box
+    {
+        width: 90%;
+    }
+}
+/*-----new user form classes end-----*/
+
+
+
+/*
+-----footer-----
+*/
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #969696;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+/*
+-----footer classes end-----
+*/
